@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --color-grey: #eee;
+  --color-dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #005490;
+  max-width: 700px;
+  margin: 100px auto;
+  border: 5px solid #fff;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  justify-content: center;
+}
+
+.container {
+  width: 220px;
+    height: 300px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 20px 50px;
+    justify-content: center;
+    margin: 50px auto;
+  
+}
+ul li {
+
+  list-style-type: none;
+
+}
+
+#football {
+    background-color:#005490;
+    font-size: 20px;
+}
+#basketball {
+    background-color:#005490;
+    font-size: 20px;
+}
+#boxing {
+    background-color:#005490;
+    font-size: 20px;
+}
+#tennis {
+    background-color:#005490;
+    font-size: 20px;   
+}
+#golf {
+    background-color:#005490;
+    font-size: 20px;
+}
+
+#sports li {
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+  border: #fff 1px solid;
+  color: #fff;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
